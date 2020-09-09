@@ -11,7 +11,7 @@ const Posts = (props) => {
     <div className="posts-container-wrapper">
       {/* Map through the posts array returning a Post component at each iteration */}
       {posts.map((itemP) => (
-        <Post likePost={likePost} post={itemP} />
+        <Post key={itemP.id} likePost={likePost} post={itemP} />
       ))}
       {/* Check the implementation of Post to see what props it requires! */}
     </div>
