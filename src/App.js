@@ -11,7 +11,6 @@ import React, { useState } from "react";
 import "./App.css";
 import Posts from "./components/Posts/Posts";
 import dummyData from "./dummy-data";
-import LikeSection from "./components/Posts/LikeSection";
 import SearchBar from "./components/SearchBar/SearchBar";
 
 const App = () => {
